@@ -1,0 +1,73 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  background-color: white;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.secondContainer{
+  display:flex;
+  flex-direction: column;
+}
+
+.perfumImage{
+  max-width: 50%;
+  border-top-left-radius:  10px;
+  border-bottom-left-radius: 10px ;
+}
+
+.secondValue {
+  text-decoration: line-through;
+  font-size: 15px;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+}
+
+.mainTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.PerfumName {
+  padding-left: 15px;
+}
+
+.p1 {
+padding-left: 15px;
+font-weight: lighter;
+opacity: 0.5;
+}
+
+.mainPrice {
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.buyButton {
+  color: white;
+  border-radius: 5px;
+  padding: 10px 60px;
+}
+
+.cartImage {
+  padding-right: 15px;
+}
+
+.cartContainer {
+ padding-left: 15px;
+}
