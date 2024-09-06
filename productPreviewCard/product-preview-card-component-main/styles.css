@@ -71,3 +71,41 @@ opacity: 0.5;
 .cartContainer {
  padding-left: 15px;
 }
+
+@media (max-width: 375px) {
+  .mainContainer {
+    flex-direction: column;
+    max-width: 340px;
+  }
+
+  .perfumImage {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .secondContainer {
+    padding: 20px;
+  }
+
+  .mainTitle,
+  .PerfumName,
+  .p1,
+  .mainPrice,
+  .cartContainer {
+    padding-left: 0;
+  }
+
+  .buyButton {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cartImage {
+    padding-right: 10px;
+  }
+}
