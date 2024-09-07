@@ -1,0 +1,133 @@
+@media screen and (max-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .firstContainer {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstContainer h4 {
+    opacity: 0.5;
+  }
+
+  .h3Text {
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .mainTitle {
+    opacity: 0.5;
+    font-size: 25px;
+    font-weight: 200;
+  }
+
+  .h4Text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .SupervisorContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+  }
+
+  .supervisorTitle {
+    font-size: larger;
+  }
+
+  .pSupervisor {
+    opacity: 0.5;
+  }
+
+  .SupervisorContainer img {
+    margin-left: auto;
+  }
+
+  .imgDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .firstContainer h3,
+  .firstContainer h4 {
+    margin: 5px 0;
+  }
+
+  .teamBuilderContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+  }
+  .imgDiv2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .teamBuilderContainer h4 {
+    font-size: larger;
+  }
+
+  .teamBuilderContainer p {
+    opacity: 0.5;
+  }
+
+  .karmaContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+  }
+
+  .imgDiv3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .karmaContainer h4 {
+    font-size: larger;
+  }
+
+  .karmaContainer p {
+    opacity: 0.5;
+  }
+  .calculatorContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+  }
+
+  .imgDiv4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .calculatorContainer h4 {
+    font-size: large;
+  }
+  .calculatorContainer p {
+    opacity: 0.5;
+  }
+}
