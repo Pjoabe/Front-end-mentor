@@ -1,0 +1,225 @@
+@media (min-width: 376px) and (max-width: 1440px) {
+  body {
+    background-color: hsl(0, 0%, 81%);
+    padding: 24px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MainContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 24px;
+    max-width: 1110px;
+  }
+
+  .DanielContainer {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  
+  .JonathanContainer {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  
+  .JeanetteContainer {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .PatrickContainer {
+    grid-column: 2 / 4;
+    grid-row: 2;
+  }
+  
+  .KiraContainer {
+    grid-column: 4;
+    grid-row: 1 / 3;
+  }
+
+  .DanielContainer, .JonathanContainer, .JeanetteContainer, .PatrickContainer, .KiraContainer {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .DanielContainer {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+  }
+  
+  .JonathanContainer {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+  }
+  
+  .JeanetteContainer, .KiraContainer {
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+  }
+  
+  .PatrickContainer {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+  }
+  
+  .TitleDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  
+  .TitleDiv img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+    margin-right: 15px;
+  }
+  
+  .TitleDiv div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .TitleDiv p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  
+  .Education {
+    opacity: 0.5;
+    font-size: 11px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+  .Description {
+    opacity: 0.7;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.DanielContainer {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url('./images/bg-pattern-quotation.svg');
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+  background-size: 124px 100px;
+  border-radius: 8px;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+.TitleDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.borderImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid hsl(263, 70%, 70%);
+  margin-right: 15px;
+}
+
+.noBorderImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.TitleDiv div {
+  display: flex;
+  flex-direction: column;
+}
+
+.TitleDiv p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.Education {
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.Description {
+  opacity: 0.7;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.JonathanContainer {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.JonathanContainer img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.JeanetteContainer {
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.KiraContainer{
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.PatrickContainer {
+  color: white;
+  background-color: black;
+  margin-top: 8px;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+}
