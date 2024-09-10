@@ -1,0 +1,77 @@
+@media (max-width: 375px) {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  background-color: white;
+}
+
+.drawers {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.onlyText  {
+  opacity: 0.5;
+  padding: 0px 40px;
+}
+
+.date {
+  margin-top: 2px;
+  opacity: 0.5;
+  padding: 0px 30px;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+  padding: 0px 18px;
+  justify-content: space-between;
+}
+
+.micheleImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 0px 15px;
+}
+.button {
+  margin-right: 20px;
+  padding: 3px;
+  border-radius: 50%;
+  border: none;
+}
+
+.imgButton {
+  width: 20px;
+  height: 20px;
+}
+
+.michelleName {
+ margin-bottom: 2px; 
+}
+
+.h3class {
+  padding: 0px 40px;
+  font-size: 20px;
+}
+
+.divButton {
+justify-content: flex-end;
+}
+
+.Andre {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+}
