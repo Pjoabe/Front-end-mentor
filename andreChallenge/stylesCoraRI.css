@@ -1,0 +1,65 @@
+.mainContainer {
+  display: flex;
+  background-image: url("/coraRI.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 1024px;
+  padding-left: 145px;
+  padding-top: 200px;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  width: 338px;
+  height: 97px;
+}
+
+.h1RI {
+  color: white;
+  font-size: 70px;
+  margin-bottom: 6px;
+}
+
+.firstPRI {
+  color: white;
+  font-size: 37px;
+  margin-top: 6px;
+  font-weight: 300;
+}
+
+.thirdPRI {
+  color: white;
+  font-size: 37px;
+  margin-top: 6px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.headerButton {
+  margin-top: 35px;
+  border-radius: 20px;
+  background-color: rgb(212, 38, 90);
+  color: white;
+  padding-top: 30px ;
+  padding-bottom: 30px;
+  padding-left: 85px;
+  padding-right: 85px;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.pContainer {
+width: 353px;
+height: 230px ;  
+}
+
+.lastPContainer {
+align-self: flex-end;
+margin-bottom: 420px;
+margin-left: 800px;
+width: 219px;
+height: 132px;
+}
